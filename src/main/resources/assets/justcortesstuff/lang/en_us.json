@@ -3,5 +3,8 @@
   "item.justcortesstuff.raw_alexandrite": "Raw Alexandrite",
 
   "block.justcortesstuff.alexandrite_block": "Block of Alexandrite",
-  "block.justcortesstuff.raw_alexandrite_block": "Block of Raw Alexandrite"
+  "block.justcortesstuff.raw_alexandrite_block": "Block of Raw Alexandrite",
+
+  "creativetab.justcortesstuff.alexandrite_items": "Alexandrite Items",
+  "creativetab.justcortesstuff.alexandrite_block": "Alexandrite Blocks"
 }

@@ -1,4 +1,7 @@
 {
   "item.justcortesstuff.alexandrite": "Alexandrite Gem",
-  "item.justcortesstuff.raw_alexandrite": "Raw Alexandrite"
+  "item.justcortesstuff.raw_alexandrite": "Raw Alexandrite",
+
+  "block.justcortesstuff.alexandrite_block": "Block of Alexandrite",
+  "block.justcortesstuff.raw_alexandrite_block": "Block of Raw Alexandrite"
 }

@@ -1,6 +1,7 @@
 package net.justcortes.JustcortesStuffMod;
 
 import com.mojang.logging.LogUtils;
+import net.justcortes.JustcortesStuffMod.Block.ModBlocks;
 import net.justcortes.JustcortesStuffMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +31,7 @@ public class JustcortesStuffMod
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
@@ -45,6 +47,10 @@ public class JustcortesStuffMod
             event.accept(ModItems.Raw_ALEXANDRITE);
 
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
     }
 
     @SubscribeEvent
